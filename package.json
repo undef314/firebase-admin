@@ -75,12 +75,19 @@
       ]
     },
     "linux": {
-      "target": ["deb", "snap"],
+      "target": [
+        "deb", 
+        "snap"
+      ],
       "maintainer": "dev@codefoxes.com"
     },
     "snap" : {
-      "plugs": ["default"],
-      "after": ["desktop-gtk2"]
+      "plugs": [
+        "default"
+      ],
+      "after": [
+        "desktop-gtk2"
+      ]
     }
   }
 }
